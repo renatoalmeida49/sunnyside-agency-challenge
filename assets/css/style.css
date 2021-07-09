@@ -27,22 +27,28 @@ body {
 /* ------------------ */
 /* HOME */
 /* ------------------ */
-.home {
+#home {
     background-image: url('../images/mobile/image-header.jpg');
     background-size: cover;
     height: 500px;
+    padding: 50px 0;
 }
 
-.home .title {
+#home .title {
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 45px;
+    letter-spacing: 4px;
+    margin-top: 50px;
 }
 
 /* ------------------ */
 /* TRANSFORM */
 /* ------------------ */
-.transform .background {
+#transform .background {
     background-image: url('../images/mobile/image-transform.jpg');
     background-size: cover;
     height: 280px;
@@ -51,7 +57,7 @@ body {
 /* ------------------ */
 /* AUDIENCE */
 /* ------------------ */
-.audience .background {
+#audience .background {
     background-image: url('../images/mobile/image-stand-out.jpg');
     background-size: cover;
     height: 280px;
@@ -60,12 +66,12 @@ body {
 /* ------------------ */
 /* JOBS */
 /* ------------------ */
-.jobs .graphic-design {
+#jobs .graphic-design {
     background-image: url('../images/mobile/image-graphic-design.jpg');
     background-size: cover;
     height: 500px;
 }
-.jobs .photography {
+#jobs .photography {
     background-image: url('../images/mobile/image-photography.jpg');
     background-size: cover;
     height: 500px;
