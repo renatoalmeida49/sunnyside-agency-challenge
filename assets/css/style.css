@@ -81,7 +81,7 @@ body {
 #home .arrow {
     display: block;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 /* ------------------ */
@@ -115,7 +115,7 @@ body {
     font-weight: 600;
     color: hsl(213, 9%, 39%);
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
 }
 #transform .link {
     text-transform: uppercase;
@@ -168,7 +168,7 @@ body {
     font-weight: 600;
     color: hsl(213, 9%, 39%);
     font-size: 18px;
-    line-height: 25px;
+    line-height: 30px;
 }
 #audience .link {
     text-transform: uppercase;
@@ -209,6 +209,7 @@ body {
 .graphic-design .content {
     font-family: 'Barlow';
     font-weight: 600;
+    line-height: 22px;
 }
 #jobs .photography {
     background-image: url('../images/mobile/image-photography.jpg');
@@ -229,6 +230,7 @@ body {
 .photography .content {
     font-family: 'Barlow';
     font-weight: 600;
+    line-height: 22px;
 }
 /* ------------------ */
 /* TESTIMONIALS */
@@ -263,6 +265,7 @@ body {
 }
 #testimonials cite {
     display: block;
+    font-style: normal;
 }
 #testimonials .client-name {
     font-family: 'Fraunces';
