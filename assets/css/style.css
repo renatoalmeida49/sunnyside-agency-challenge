@@ -91,7 +91,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 #transform .link::before {
     content: '';
     position: absolute;
@@ -254,19 +253,15 @@ body {
 .milks {
     background-image: url('../images/mobile/image-gallery-milkbottles.jpg');
 }
-
 .orange {
     background-image: url('../images/mobile/image-gallery-orange.jpg');
 }
-
 .cone{
     background-image: url('../images/mobile/image-gallery-cone.jpg');
 }
-
 .sugar-cubes {
     background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
 }
-
 /* ------------------ */
 /* FOOTER */
 /* ------------------ */
@@ -294,4 +289,75 @@ body {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* ------------------ */
+/* MEDIA QUERIES */
+/* ------------------ */
+@media (min-width: 1440px) {
+    #home {
+        background-image: url('../images/desktop/image-header.jpg');
+        height: 800px;
+    }
+    #transform {
+        display: flex;
+        height: 600px;
+    }
+    #transform div {
+        width: 50%;
+    }
+    #transform .background {
+        background-image: url('../images/desktop/image-transform.jpg');
+        order: 2;
+        height: auto;
+    }
+
+    #audience {
+        display: flex;
+        height: 600px;
+    }
+    #audience div {
+        width: 50%;
+    }
+    #audience .background {
+        height: auto;
+    }
+
+    #jobs {
+        display: flex;
+    }
+    #jobs div {
+        width: 50%;
+    }
+    #jobs .graphic-design {
+        background-image: url('../images/desktop/image-graphic-design.jpg');
+    }
+    #jobs .photography {
+        background-image: url('../images/desktop/image-photography.jpg');
+    }
+
+    #testimonials {
+        display: flex;
+        flex-direction: column;
+    }
+    #testimonials div {
+        display: flex;
+    }
+
+    #gallery .photo {
+        width: 25%;
+        height: 800px;
+    }
+    .milks {
+        background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
+    }
+    .orange {
+        background-image: url('../images/desktop/image-gallery-orange.jpg');
+    }
+    .cone {
+        background-image: url('../images/desktop/image-gallery-cone.jpg');
+    }
+    .sugar-cubes {
+        background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
+    }
 }
